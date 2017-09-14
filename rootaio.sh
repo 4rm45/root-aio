@@ -246,4 +246,4 @@ case $selection in
 esac
 done
 
-#4rm45 - Currently only for private use
+#4rm45
