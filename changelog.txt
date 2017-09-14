@@ -1,0 +1,72 @@
+1:
+-Added root-checker
+
+2:
+-Added simple menu (using case)
+-Added reboot-option
+
+3:
+-Modified menu
+
+4:
+-Made sub-menu to more reboot-options
+
+5:
+-Added exit-option to main-menu
+-Added question to reboot-sub-menu
+
+6:
+-Added "Back to main menu"-option to reboot-menu
+
+7:
+-Added simple efs-backupper
+
+8:
+-Added automatic overwriting to efs-backupper
+
+9:
+-Optimized to wvga/240dpi
+-Moved "signature" to end of the script
+
+10:
+-Changed UI's lines to variables
+
+11:
+-Added battery stats wiper
+-Added logcat reader
+
+12:
+-Changed logcat reader to logcat dumper
+-Added automatic overwriting to logcat dumper
+
+13:
+-Added busybox checker
+-Modified root checker
+
+14:
+-Edited "signature" a bit
+-Added more sleep:s
+-NOT TESTED/DANGEROUS: Added efs-restore
+-Added dalvik cache wiper (only for /data/dalvik-cache)
+-Added bootanim disabler (only for /system/media/)
+
+15:
+-Added camera shutter sound disabler (only for /system/media/audio/ui/)
+
+16: 
+-Modified combination of root- and busybox-checker for mount-checker
+-Added automatic /system mounter
+
+17:
+-Added permission fixer for /data and /system -apps
+-STILL NOT TESTED: Modified efs backup/restore to use .tar (doesn't need a separate chmod)
+-Extended bootanim disabler with bootanim enabler (added a whole new menu)
+-"Cleaned up" the code a bit (changed all tabulators to spaces, may be better)
+
+18:
+-Extended camera shutter sound disabler with camera shutter sound enabler (added a whole new menu)
+-Changed all spaces to tabulators
+-Added descriptive comment to every action's beginning for easier moving
+
+19:
+-Added/modified Galaxy Note support (modified system mounter and re-aligned whole script)

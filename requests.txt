@@ -1,0 +1,29 @@
+-Apps+data backup/restore
+
+-Lmk tuning, prepared presets
+
+-Init.d tweaks like sdcard-readahead and zipalign on boot
+
+-Build.prop tweaks like lcd density
+
+-Dalvik-wipe also for other locations (e.g. /sd-ext/)
+
+-Bootanim disabler for other locations (e.g. /data/local/)
+
+-Mount checker
+
+-Command to log whole script's usage to /sdcard/rootaiolog.txt for example
+
+
+
++Complete adb-pack for using adb shell (requires mount checker or manual mounting if in recovery)
+
++Download- and hot-reboot (probably impossible in terminal)
+
++Apps market links' backup/restore (probably impossible in terminal)
+
++Data and cache wipe (only in recovery, so quite useless)
+
++Disable shutdownanim (quite rare)
+
+++Echo-animation like in Supercharger
