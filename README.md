@@ -6,10 +6,10 @@ Varsinaisina ominaisuuksina:
 
 - Low-level eli välitön sammutus sekä uudelleenkäynnistys normaalisti, palautustilaan ja käynnistyslataajaan
 - EFS-osion varmuuskopiointi ja palautus (=puhelimen IMEI:n turvaaminen)
-- Akkutietojen tyhjentäminen
+- Akkutietojen tyhjentäminen (=kalibrointi)
 - Logcat -lokin dumppaaminen
 - Dalvik-välimuistin tyhjentäminen
-- Käynnistysanimaation disablointi/enablointi
+- Käynnistysanimaation disablointi/enablointi (=käynnistymisen nopeutus)
 - Kameran suljinäänen disablointi/enablointi
 - Sovellusten luku-/kirjoituslupien korjaus
 
